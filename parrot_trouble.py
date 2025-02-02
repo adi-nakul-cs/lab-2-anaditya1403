@@ -27,3 +27,5 @@ print(parrot_trouble(False,21)) # False
 print(parrot_trouble(True,20)) # False
 print(parrot_trouble(True,23)) # True
 print(parrot_trouble(True,0)) # True
+
+# FEEDBACK: We went over this in 2/1/25 class

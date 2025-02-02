@@ -8,14 +8,15 @@
 # missing_char('kitten', 4) → 'kittn'
 
 def missing_char(str,n):
-    if len(str) >= 1:
+    # btw the if statement is not necessary here so I commented it out -- cool python feature about string slicing
+    # if len(str) >= 1:
         front = str[ :n]
 
         rear = str[n + 1:]
 
         return front + rear 
-    else:
-        print("String is empty.")
+    # else:
+    #     print("String is empty.")
 
 if __name__ == "__main__":
     print(missing_char("Anaditya",1))

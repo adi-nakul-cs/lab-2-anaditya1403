@@ -23,4 +23,10 @@ if __name__ == '__main__':
 
     print(monkey_trouble(False,False))
 
-
+# FEEDBACK
+# Overall looks good 
+# One suggestion is to combine the two if statements into one if statement:
+# if (a_smile and b_smile) or (not a_smile and not b_smile):
+#     return True
+# else:
+#     return False
